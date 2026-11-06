@@ -10,7 +10,9 @@
   --sans: 'Manrope', system-ui, sans-serif;
   --serif: 'Cormorant Garamond', Georgia, serif
 }
-
+.edtied{
+  margin-top: -73px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
