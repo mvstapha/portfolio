@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MO. — Built Quietly, Remembered Forever</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,500&family=Manrope:wght@200;300;400;500&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Fullscreen menu -->
+<nav class="menu" id="menu" aria-hidden="true">
+  <div class="bar">
+    <a href="#top" class="logo">MO.</a>
+    <button class="icon-btn" id="menuClose" aria-label="Close menu" aria-controls="menu"><span class="x"></span></button>
+  </div>
+  <ul>
+    <li><a href="#philosophy">About Me</a></li>
+    <li><a href="#work">My Work</a></li>
+    <li><a href="#skills">Services</a></li>
+    <li><a href="#share">Publications</a></li>
+  </ul>
+  <a href="#share" class="cta"><span class="cta-pill">Let’s Talk</span><span class="cta-arrow">→</span></a>
+</nav>
+
+<!-- Hero -->
+<header class="hero" id="top">
+  <div class="bar">
+    <a href="#top" class="logo">MO.</a>
+    <button class="icon-btn" id="menuOpen" aria-label="Open menu" aria-controls="menu" aria-expanded="false"><span class="burger"></span></button>
+  </div>
+  <div class="portrait">
+    <!-- Replace with your photo -->
+    <img src="Adobe Express - file (1) 1.png" alt="Portrait">
+  </div>
+  <h1>Built Quietly<em>Remembered Forever</em></h1>
+</header>
+
+<!-- Philosophy -->
+<section class="philosophy" id="philosophy">
+  <h2 class="big-light">The Philosophy</h2>
+  <button class="plus" id="locToggle" aria-label="Toggle location" aria-expanded="true">+</button>
+  <p class="loc show">Based in Morocco,<br>Operating Worldwide</p>
+  <span class="vline"></span>
+  <p class="statement">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo. My signature is that you need a solution not just a website</p>
+  <img class="signature" src="Signature-PNG-Photos 1.svg" alt="" onerror="this.style.display='none'">
+</section>
+
+<!-- Skills -->
+<section class="skills" id="skills" aria-label="Services and skills">
+  <div class="skills-head">
+    <small>Explore</small>
+    <h2 class="big-light sm">My Skills</h2>
+    <a href="#share" class="link-u">Let’s Talk Now ↗</a>
+  </div>
+  
+  <div class="acc">
+    <div class="acc-item open">
+      <button class="acc-btn"><span>Front End</span><i></i></button>
+      <ul class="acc-body"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>React JS</li></ul>
+    </div>
+    <div class="acc-item"><button class="acc-btn"><span>Back End</span><i></i></button><ul class="acc-body"><li>PHP</li><li>Node.js</li><li>REST APIs</li></ul></div>
+    <div class="acc-item"><button class="acc-btn"><span>Databases</span><i></i></button><ul class="acc-body"><li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li></ul></div>
+    <div class="acc-item"><button class="acc-btn"><span>Security</span><i></i></button><ul class="acc-body"><li>Authentication</li><li>OWASP Practices</li><li>HTTPS &amp; Hardening</li></ul></div>
+    <div class="acc-item"><button class="acc-btn"><span>Design</span><i></i></button><ul class="acc-body"><li>Figma</li><li>UI / UX</li><li>Branding</li></ul></div>
+  </div>
+</section>
+
+<!-- Connect -->
+<section class="connect">
+  <div class="ghost">Let’s Connect</div>
+  <div class="socials">
+    <a href="#">Instagram ↗</a><a href="#">Github</a><a href="#">LinkedIn</a>
+    <a href="#">Email</a><a href="#">Twitter</a><a href="#">Behance</a>
+  </div>
+</section>
+
+<!-- Work -->
+<section class="work" id="work">
+  <small>Explore</small>
+  <h2 class="big-light sm white">My Work</h2>
+  <div class="slider" id="slider">
+    <article class="slide active">
+      <div class="shot shot-belmarty">
+        <div class="shot-nav"><b>◉ Belmarty</b><span>Accueil Services Projets Le Blog</span><u>Travaillons ensemble</u></div>
+        <h3>Des solutions digitales qui cassent<br>les codes, <em>pas les promesses.</em></h3>
+        <p>Nous créons des expériences web sur mesure.</p>
+        <span class="shot-btn">Découvrir nos projets</span>
+      </div>
+      <a href="#" class="site">Belmarty.ma ↗</a>
+      <div class="meta"><span class="num">01</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></div>
+    </article>
+    <article class="slide">
+      <div class="shot shot-alt"><h3>Project two<br><em>coming soon.</em></h3></div>
+      <a href="#" class="site">Project.ma ↗</a>
+      <div class="meta"><span class="num">02</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+    </article>
+    <article class="slide">
+      <div class="shot shot-alt"><h3>Project three<br><em>coming soon.</em></h3></div>
+      <a href="#" class="site">Project.ma ↗</a>
+      <div class="meta"><span class="num">03</span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+    </article>
+  </div>
+  <div class="dots" id="dots"><button class="on" aria-label="Slide 1"></button><button aria-label="Slide 2"></button><button aria-label="Slide 3"></button></div>
+</section>
+
+<!-- Services -->
+<section class="duo services-list" id="services">
+  <div class="service-row">
+    <span class="n">01</span>
+    <span class="line"></span>
+    <div class="duo-title"><small>Web</small><h2>Development</h2></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo. My signature is that you need a solution not just a website</p>
+  </div>
+  <div class="service-row reverse">
+    <div class="duo-title"><small>Web</small><h2>Design</h2></div>
+    <span class="line"></span>
+    <span class="n">02</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo. My signature is that you need a solution not just a website</p>
+  </div>
+  <div class="service-row">
+    <span class="n">03</span>
+    <span class="line"></span>
+    <div class="duo-title"><small>Website</small><h2>Optimization</h2></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo. My signature is that you need a solution not just a website</p>
+  </div>
+</section>
+
+<!-- Share -->
+<footer class="share" id="share">
+  <small>Anything in mind?</small>
+  <h2>Share your idea</h2>
+  <form id="ideaForm">
+    <input type="text" id="idea" placeholder="Tell me about your project..." required>
+    <button type="submit">Let’s Talk</button>
+  </form>
+  <p class="thanks" id="thanks" hidden>Thanks — I’ll get back to you soon.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
